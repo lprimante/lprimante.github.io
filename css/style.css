@@ -1,0 +1,162 @@
+* {
+    font-family: 'Asap', arial, helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'flamenco', Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    min-height: 90vh;
+    background: url(../img/bg-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,.4)
+}
+
+.topbar ul li {
+    display: inline;
+}
+
+.topbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.topbar a.botao {
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+header h1 {
+    font-family: 'flamenco', Arial, Helvetica, sans-serif; 
+    text-transform: uppercase;
+}
+
+
+header > div {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 15%;
+    text-align: center;
+    color: white;
+}
+
+header div > a, .servicos div > a {
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: rgb(126, 106, 18);
+    font-family: 'Flamenco', cursive, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+}
+
+.sobre {
+    margin: 0 auto;
+    width: 50%;
+    padding: 2%
+}
+
+.sobre > div {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.sobre div img, {
+    display: inline-block;
+}
+
+.descricao{
+    display: inline-block;
+    width: 60%;
+}
+
+.descricao h2 {
+    font-family: 'Flamenco', cursive, Arial, Helvetica, sans-serif;
+
+}
+
+.descricao p {
+    color: gray;
+}
+
+.etapas h2 {
+    text-align: center;
+}
+
+.etapas > div {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.etapas div div {
+    width: 25%;
+    color: gray;
+    padding-top: 2%;
+    font-size: 110%;
+}
+
+.servicos {
+    min-height: 90vh;
+    background: url(../img/bg-servicos.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    
+}
+
+.servicos h2 {
+    text-align: center;
+    padding: 2%;
+    
+}
+
+.servicos div div {
+    background-color: rgb(43, 145, 170);
+    border-radius: 2%;
+    padding: 3%;
+    max-width: 30%;
+    max-height: 50%;
+    text-align: center;
+}
+
+.servicos h3 {
+    color: white;
+    font-size: 150%;
+}
+
+.servicos p {
+    color: white;
+}
+
+.servicos > div {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
