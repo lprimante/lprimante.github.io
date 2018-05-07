@@ -5,8 +5,8 @@
         <title>Gruppe Viagens</title>
         <link href="https://fonts.googleapis.com/css?family=Asap:400,700,700i|Flamenco" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-
-        
+        <link rel="stylesheet" href="css/media.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <header>
@@ -79,15 +79,15 @@
                 <div>
                     <div>
                         <p>80%</p>
-                        <p>É o que você economiza quando planeja uma viagem de antemão</p>
+                        <span>É o que você economiza quando planeja uma viagem de antemão</span>
                     </div>
                     <div>
                         <p>50+</p>
-                        <p>Localidades diferentes nossos consultores conhecem no mundo inteiro</p>
+                        <span>Localidades diferentes nossos consultores conhecem no mundo inteiro</span>
                     </div>
                     <div>
                         <p>1000+</p>
-                        <p>Brasileiros viajaram no ano de 2016</p>
+                        <span>Brasileiros viajaram no ano de 2016</span>
                     </div>
                 </div>
             </section>
@@ -98,23 +98,25 @@
                 </div>
                 <div>
                     <form action="" method="GET">
-                        <div>
-                            <label for="nome">Nome</label>
-                            <input type="text" name="nome">
+                        <div class="pt1">
+                            <div>
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="text" name="email">
+                            </div>
                         </div>
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="text" name="email">
-                        </div>
-                        <div>
+                        <div class="assunto">
                             <label for="assunto">Assunto</label>
                             <input type="text" name="assunto">
                         </div>
-                        <div>
+                        <div class="mensagem">
                             <label for="mensagem">Mensagem</label>
-                            <input type="textarea" name="mensagem">
+                            <textarea type="textarea" name="mensagem" rows="10" cols="50"> </textarea>
                         </div>    
-                        <input type="submit" value="enviar">
+                        <input class="bt-form"    type="submit" value="enviar">
                     </form>
                 </div>
             </section>
@@ -122,8 +124,12 @@
                 <h2>Fique ligado nas novidades do Gruppe!</h2>
                 <div>
                     <form action="">
-                        <input type="text" name="email" placeholder="Digite seu email aqui">
-                        <input type="submit" value="enviar">
+                        <div>
+                            <input class="bt-email" type="text" name="email" placeholder="Digite seu email aqui">
+                        </div>
+                        <div>
+                            <input class="bt-form2" type="submit" value="começar agora">
+                        </div>
                     </form>
                 </div>
             </section>
@@ -141,15 +147,19 @@
                         </nav>
                     </div>
                     <div>
-                        <img src="img/logo-footer.png" alt="">
-                        <p>Sharing Experiences</p>
-                        <a href="mailto:contato@gruppe.com">contato@gruppe.com</a>
+                        <div class="ft-email">    
+                            <img src="img/logo-footer.png" alt="">
+                            <p>Sharing Experiences</p>
+                            <a href="mailto:contato@gruppe.com"><strong>contato@gruppe.com</strong></a>
+                        </div>
                         <p>© Copyright 2017. Gruppe Viagens</p>
                     </div>
-                    <div>
-                        <p>Siga-nos nas redes sociais:</p>
-                        <a href="#"><img src="img/fb-icon.png"></a>
-                        <a href="#"><img src="img/yt-icon.png"></a>
+                    <div class="redes">
+                        <p><strong>Siga-nos nas redes sociais:</strong></p>
+                        <div>
+                            <a href="#"><img src="img/fb-icon.png"></a>
+                            <a href="#"><img src="img/yt-icon.png"></a>
+                        </div>
                     </div>
                 </div>
             </footer>
