@@ -1,3 +1,5 @@
+
+/* Condições Gerais */
 * {
     font-family: 'Asap', arial, helvetica, sans-serif;
 }
@@ -9,6 +11,8 @@ h2 {
 body {
     margin: 0;
 }
+
+/* Cabeçalho */
 
 header {
     min-height: 90vh;
@@ -72,6 +76,8 @@ header div > a, .servicos div > a {
     margin: 0 auto;
 }
 
+/* Seção Sobre */
+
 .sobre {
     margin: 0 auto;
     width: 50%;
@@ -83,7 +89,7 @@ header div > a, .servicos div > a {
     justify-content: space-around;    
 }
 
-.sobre div img, {
+.sobre div img {
     display: inline-block;
 }
 
@@ -119,6 +125,8 @@ header div > a, .servicos div > a {
     padding-top: 2%;
     font-size: 110%;
 }
+
+/* Seção Serviços */
 
 .servicos {
     min-height: 90vh;
@@ -159,4 +167,211 @@ header div > a, .servicos div > a {
     margin: 0 auto;
 }
 
+/* Seção Curiosidades */
 
+.curiosidades {
+    background: url(../img/bg-numeros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.curiosidades h2 {
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    margin: 0;
+}
+
+.curiosidades > div {
+    display: flex;
+    justify-content: space-around;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+}
+
+.curiosidades div > p {
+    font-size: 250%;
+    color: yellow;
+    font-weight: 700;
+    margin: 0;
+    width: 60%;
+}
+
+.curiosidades span {
+    color: white;
+    display: block;
+    width: 60%;
+}
+
+/* Seção Contato */
+
+.contato {
+    background-color: rgba(211, 211, 211, 0.507);
+    padding: 3%;
+}
+
+.contato h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.contato p {
+    font-family: 'Flamenco', cursive, Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    margin-top: 1%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contato form {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+    
+}
+
+.pt1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pt1 label {
+    display: inline-block;
+    text-align: left;
+}
+
+.pt1 > div {
+    width: 45%;
+    text-align: left;
+}
+
+.pt1 input {
+    width: 100%;
+    background-color: wheat;
+}
+
+.contato div label {
+    display: block;
+    text-align: left;
+    padding: 1% 0;
+}
+
+.assunto > input {
+    width: 100%;    
+    background-color: wheat;
+    
+}
+
+.mensagem > textarea {
+    width: 100%;
+    background-color: wheat;
+    
+    
+}
+
+.bt-form {
+    background-color: rgb(43, 145, 170);
+    color: white;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 120%
+}
+
+/* Seção Newsletter */
+
+.news {
+    background-color:yellow;
+    padding: 3% 0;
+}
+
+.news h2 {
+    font-size: 250%;
+    text-align: center;
+    margin: 0;
+}
+
+
+.news form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+}
+
+.news > div {
+    width: 45%;
+    margin: 0 auto;
+    padding: 1% 0 ;
+}
+
+.news form > div {
+    width: 45%;
+}
+
+.news form {
+    width: 100%;
+}
+
+.bt-email {
+    width: 100%;
+    padding: 2%;
+   
+}
+
+.bt-form2 {
+    background-color: red;
+    color: white;
+    padding: 2% 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 120%
+}
+
+/* Seção Footer */
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 2%;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 1%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.ft-email {
+    font-size: 80%;
+    text-align: center;
+}
+
+.ft-email ~ p {
+    padding-top: 15%;
+}
+
+.redes > div {
+    display: flex;
+    justify-content: space-around;
+    padding: 8%;
+}
